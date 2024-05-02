@@ -1,7 +1,22 @@
+:root {
+  --Secondary: cornsilk;
+  --level5: 20px;
+  --Branding: #ff7f50;
+  --Triple-Extra-Large: 100px;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-/* Start coding here */
+.introduction {
+  background-color: var(--Secondary);
+  padding: var(--level5);
+}
+
+.introduction h1 {
+  color: var(--Branding);
+  font-size: var(--Triple-Extra-Large);
+}
